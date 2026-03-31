@@ -590,6 +590,11 @@
     first_name: Layla
     institution: SURF
 
+  - last_name: Luna-Valero
+    first_name: Sebastian
+    institution: EGI Foundation
+    link: https://www.egi.eu/people/sebastian-luna-valero/
+
 
 - country: Pakistan
   entries:
