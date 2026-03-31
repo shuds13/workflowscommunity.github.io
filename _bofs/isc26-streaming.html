@@ -1,0 +1,52 @@
+---
+layout: bof
+title: ISC 2026 Data Streaming BoF
+subtitle: "Real-Time Scientific Data Streaming to HPC Nodes: Challenges and Innovations V"
+event_date: June 23, 2026
+time: "TBD"
+order: 7
+conference_logo: https://isc-hpc.com/wp-content/uploads/2024/02/isc-logo.svg
+organizers:
+    - name: Bjoern Enders (NERSC)
+      image: https://www.nersc.gov/assets/Uploads/Profiles/Bjoern-Enders__FocusFillMaxWyIwLjExIiwiLTAuMTEiLDI1MCwyNTBd.jpeg
+    - name: Rafael Ferreira da Silva (ORNL)
+      image: https://rafaelsilva.com/assets/images/2022-rafael-ferreira-da-silva-high-resolution.jpg
+    - name: Alex Upton (CSCS)
+      image: https://www.cscs.ch/fileadmin/user_upload/mycscs_staff/user_29_small.jpg
+supporters:
+    - link: https://www.nersc.gov/
+      image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKv5LXRUBcMbGsXmwhEVArUKYup-AJjDs8g&s
+    - link: https://www.lbl.gov/
+      image: https://www.lbl.gov/wp-content/uploads/2022/09/berkeley-logo.svg
+    - link: https://ornl.gov/
+      image: https://www.hpcwire.com/wp-content/uploads/2019/07/ORNL-OLCF-logo-700x.jpg
+    - link: https://www.cscs.ch/
+      image: https://upload.wikimedia.org/wikipedia/commons/3/3a/Logo_of_the_Swiss_National_Supercomputing_Centre_CSCS.jpg
+---
+
+<p>
+    As High-Performance Computing (HPC) enters the Exascale era, the scientific community faces a critical data paradox:
+    our ability to generate data via high-fidelity simulations and next-generation instruments vastly outpaces our
+    ability to store it. In many domains—from climate modeling and cosmology to experimental physics—simulation outputs
+    and sensor inputs now frequently reach the Petabyte range per run. The traditional "compute-store-analyze" paradigm,
+    which relies on dumping massive datasets to parallel file systems for post-processing, has become an unsustainable
+    bottleneck. It introduces unacceptable latency, wastes energy on data movement, and often renders high-frequency
+    data analysis practically inaccessible.
+</p>
+
+<p>
+    This BoF discusses this challenge by exploring the architectural shift from file-based workflows to high-performance
+    streaming. In this new paradigm, storage is treated not as a buffer for post processing once simulations are
+    completed, but as a sink for final scientific results, while analysis, visualization, and reduction occur in-transit
+    or in-situ.
+</p>
+
+<p>
+    The schedule will be split into two sections. First, we will have a session of community-provided lightning talks
+    which is intended to captivate and inspire the audience and familiarize them with the challenge at hand. The second
+    part will be a "Workflow Challenge Workshop" where participants will be divided into small groups representing
+    different stakeholders (facility operators, users, software developers). Each group will receive a real streaming
+    workflow scenario and work together to identify technical, policy, and infrastructure requirements for
+    implementation. Groups will document their solutions using a shared digital whiteboard, allowing cross-group
+    visibility and iteration.
+</p>
