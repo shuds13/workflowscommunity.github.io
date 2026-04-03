@@ -55,7 +55,7 @@ layout: page
         </div>
 
         <div class="row talk-main g-4">
-            <div class="col-lg-8">
+            <div class="{% if page.speakers and page.speakers.size > 0 %}col-lg-8{% else %}col-lg-12{% endif %}">
                 <section class="talk-section">
                     <h2>Overview</h2>
                     <div class="talk-content">{{ content }}</div>
@@ -73,12 +73,14 @@ layout: page
                 {% endif %}
             </div>
 
+            {% if page.speakers and page.speakers.size > 0 %}
             <div class="col-lg-4">
                 <aside class="talk-sidebar">
                     <div class="talk-card">
                         <h3>About the speakers</h3>
-                        {% assign speaker = site.data.speakers | where: "talk_num", page.talk_number %}
-                        {% for member in speaker %}
+                        {% for speaker_id in page.speakers %}
+                        {% assign member = site.data.speakers | where: "id", speaker_id | first %}
+                        {% if member %}
                         <div class="talk-speaker">
                             <a href="{{ member.link }}" target="_blank" class="talk-speaker-photo">
                                 {% assign photo_src = member.photo | default: 'headshot_placeholder.jpg' %}
@@ -97,10 +99,12 @@ layout: page
                                 </div>
                             </div>
                         </div>
+                        {% endif %}
                         {% endfor %}
                     </div>
                 </aside>
             </div>
+            {% endif %}
         </div>
     </div>
 </section>
