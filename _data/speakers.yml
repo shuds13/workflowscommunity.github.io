@@ -299,9 +299,12 @@
   link: https://www.anl.gov/profile/ming-du
   photo: ming_du.jpeg
   bio: >
-    Ming Du is an Assistant Computational Scientist at Argonne National Laboratory where
-    he works on computer vision and generative AI for imaging and agentic AI for
-    automation.
+    Ming Du is a computational scientist in the Computational Science and AI Group (CAI) of
+    the Advanced Photon Source. He obtained his PhD degree in Materials Science and Engineering
+    from Northwestern University in 2019, and was a postdoc at the APS from 2019 to 2021. He
+    worked as an algorithm engineer in KLA Corporation between 2021 and 2023. Ming’s primary
+    research areas include traditional and AI-based methods for microscopy imaging and automated
+    calibration and measurement at synchrotron beamlines.
 
 - id: xiangyu_yin
   name: Xiangyu Yin
@@ -314,9 +317,6 @@
   link: https://www.anl.gov/profile/xiangyu-yin
   photo: xiangyu_yin.jpg
   bio: >
-    Xiangyu Yin is an Assistant Computational Scientist at Argonne National Laboratory,
-    where he works at the intersection of computational imaging, artificial intelligence,
-    and scientific automation. He joined Argonne in 2023 as a Postdoctoral Appointee.
-    Before that, he studied computational materials and process systems engineering at
-    Carnegie Mellon University. He is interested in developing intelligent systems to
-    accelerate, automate, and advance scientific discovery.
+    Xiangyu Yin is an Assistant Computational Scientist at APS working on computational algorithms,
+    artificial intelligence, and scientific automation. He joined Argonne in 2023 as a Postdoctoral
+    Appointee. Before that, he studied computational materials at Carnegie Mellon University.
