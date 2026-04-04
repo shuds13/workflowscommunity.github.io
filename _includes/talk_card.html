@@ -13,10 +13,12 @@
           {% endif %}
         </div>
         <div class="talk-card-avatars">
-          {% assign speakers = site.data.speakers | where: "talk_num", talk.talk_number %}
-          {% for member in speakers %}
+          {% for speaker_id in talk.speakers %}
+          {% assign member = site.data.speakers | where: "id", speaker_id | first %}
+          {% if member %}
           {% assign photo_src = member.photo | default: 'headshot_placeholder.jpg' %}
           <img src="/images/talks/{{ photo_src }}" alt="{{ member.name }}" class="talk-card-avatar" />
+          {% endif %}
           {% endfor %}
         </div>
       </div>

@@ -1,4 +1,6 @@
-- name: Stephen Hudson
+# Speaker profiles keyed by `id`. Talks list `speakers: [id, ...]` in display order.
+- id: stephen_hudson
+  name: Stephen Hudson
   role: Principal Software Engineer
   institution:
     - name: Argonne National Laboratory
@@ -6,11 +8,13 @@
       image: argonne.png
   country: us
   link: https://www.anl.gov/profile/stephen-hudson
-  talk_num: 0
   photo: hudson.jpg
-  bio: "Stephen Hudson is a Principal Software Engineer at Argonne National Laboratory, working on workflow systems for high-performance computing."
+  bio: >
+    Stephen Hudson is a Principal Software Engineer at Argonne National Laboratory,
+    working on workflow systems for high-performance computing.
 
-- name: Logan Ward
+- id: logan_ward
+  name: Logan Ward
   role: Computational Scientist
   institution:
     - name: Argonne National Laboratory
@@ -18,11 +22,16 @@
       image: argonne.png
   country: us
   link: https://www.anl.gov/profile/logan-ward
-  talk_num: 1
   photo: ward.jpg
-  bio: "Logan Ward is a Computational Scientist in the Data Science and Learning Division of Argonne National Laboratory, which he joined in 2019 after a post-doc at the University of Chicago. Logan’s PhD dissertation was in Materials Science and Engineering and focused on the development of AI algorithms for materials, so most of his research focuses on the intersection between AI, HPC, and physical sciences."
+  bio: >
+    Logan Ward is a Computational Scientist in the Data Science and Learning Division
+    of Argonne National Laboratory, which he joined in 2019 after a post-doc at the
+    University of Chicago. Logan’s PhD dissertation was in Materials Science and
+    Engineering and focused on the development of AI algorithms for materials, so most
+    of his research focuses on the intersection between AI, HPC, and physical sciences.
 
-- name: Eli Dart
+- id: eli_dart
+  name: Eli Dart
   role: Computer Systems Engineer
   institution:
     - name: Energy Sciences Network
@@ -30,14 +39,19 @@
       image: esnet.png
     - name: Lawrence Berkeley National Laboratory
       link: https://www.lbl.gov/
-      image: lbnl.png    
+      image: lbnl.png
   country: us
   link: https://www.es.net/about/esnet-staff/science-engagement/dart
-  talk_num: 2
   photo: dart.jpg
-  bio: "Eli has over 20 years of experience in network architecture, design, engineering, performance, and security in scientific and research environments. His primary professional interests are high-performance architectures and effective operational models for networks that support scientific missions, and building collaborations to bring about the effective use of high-performance networks by science projects."
+  bio: >
+    Eli has over 20 years of experience in network architecture, design, engineering,
+    performance, and security in scientific and research environments. His primary
+    professional interests are high-performance architectures and effective operational
+    models for networks that support scientific missions, and building collaborations to
+    bring about the effective use of high-performance networks by science projects.
 
-- name: Hannah Parraga
+- id: hannah_parraga
+  name: Hannah Parraga
   role: Software Engineering Specialist
   institution:
     - name: Argonne National Laboratory
@@ -45,11 +59,16 @@
       image: anl_aps.png
   country: us
   link: https://www.anl.gov/profile/hannah-parraga
-  talk_num: 3
   photo: parraga.jpg
-  bio: "Hannah Parraga is a Software Engineering Specialist at Argonne National Laboratory. As a part of the Scientific Software and Data Management Group at the Advanced Photon Source since 2021, her interests include developing robust and reliable software solutions for scientific research such as automated data processing, secure data access, and intuitive user interfaces."
+  bio: >
+    Hannah Parraga is a Software Engineering Specialist at Argonne National Laboratory.
+    As a part of the Scientific Software and Data Management Group at the Advanced
+    Photon Source since 2021, her interests include developing robust and reliable
+    software solutions for scientific research such as automated data processing, secure
+    data access, and intuitive user interfaces.
 
-- name: Carole Goble
+- id: carole_goble
+  name: Carole Goble
   role: Professor of Computer Science
   institution:
     - name: University of Manchester
@@ -57,11 +76,16 @@
       image: umanchester.png
   photo: goble.jpg
   link: https://www.research.manchester.ac.uk/portal/carole.goble.html
-  talk_num: 4
-  photo: goble.jpg
-  bio: "Carole Goble is a Professor of Computer Science at the University of Manchester, where she leads the eScience group. She is the joint head of ELIXIR-UK, the national node of the European Research Infrastructure for life science data, and the co-director of Federated Analytics for Health Data Research UK. She is also co-lead of the FAIR Computational Workflows working group in the Workflows Community Initiative."
+  bio: >
+    Carole Goble is a Professor of Computer Science at the University of Manchester,
+    where she leads the eScience group. She is the joint head of ELIXIR-UK, the national
+    node of the European Research Infrastructure for life science data, and the
+    co-director of Federated Analytics for Health Data Research UK. She is also
+    co-lead of the FAIR Computational Workflows working group in the Workflows Community
+    Initiative.
 
-- name: Johan Gustafsson
+- id: johan_gustafsson
+  name: Johan Gustafsson
   role: Research Community Engagement Lead
   institution:
     - name: Australian BioCommons
@@ -72,11 +96,14 @@
       image: umelbourne.png
   photo: gustafsson.png
   link: https://www.biocommons.org.au/lb-johan
-  talk_num: 4
-  photo: gustafsson.png
-  bio: "Johan Gustafsson is the Research Community Engagement Lead (Proteins / Metabolites / Workflows) at the Australian BioCommons, University of Melbourne. The BioCommons is a national digital infrastructure initiative supporting Australian life sciences research."
+  bio: >
+    Johan Gustafsson is the Research Community Engagement Lead (Proteins / Metabolites /
+    Workflows) at the Australian BioCommons, University of Melbourne. The BioCommons is
+    a national digital infrastructure initiative supporting Australian life sciences
+    research.
 
-- name: Debbie Bard
+- id: debbie_bard
+  name: Debbie Bard
   role: NERSC Science Engagement and Workflows Department Head
   institution:
     - name: National Energy Research Scientific Computing Center
@@ -84,14 +111,21 @@
       image: nersc.png
     - name: Lawrence Berkeley National Laboratory
       link: https://www.lbl.gov/
-      image: lbnl.png  
+      image: lbnl.png
   country: us
   link: https://www.nersc.gov/about/nersc-staff/debbie-bard
-  talk_num: 5
   photo: bard.jpg
-  bio: "Debbie Bard is a physicist and data scientist with 20 years experience in scientific computing, working in particle physics, cosmology and HPC. She leads the Science Engagement and Workflows department at the National Energy Research Scientific Computing center (NERSC), responsible for supporting and engaging NERSC’s 11,000 users. She leads the Superfacility initiative at Lawrence Berkeley National Lab, and also leads the DOE’s Integrated Research infrastructure program, developing an ecosystem to integrate experimental facilities and HPC."
+  bio: >
+    Debbie Bard is a physicist and data scientist with 20 years experience in scientific
+    computing, working in particle physics, cosmology and HPC. She leads the Science
+    Engagement and Workflows department at the National Energy Research Scientific
+    Computing center (NERSC), responsible for supporting and engaging NERSC’s 11,000
+    users. She leads the Superfacility initiative at Lawrence Berkeley National Lab, and
+    also leads the DOE’s Integrated Research infrastructure program, developing an
+    ecosystem to integrate experimental facilities and HPC.
 
-- name: C. Titus Brown
+- id: titus_brown
+  name: C. Titus Brown
   role: Professor of Population Health & Reproduction
   institution:
     - name: University of California, Davis
@@ -99,11 +133,16 @@
       image: ucdavis.png
   country: us
   link: https://www.vetmed.ucdavis.edu/faculty/c-titus-brown
-  talk_num: 6
   photo: titus.jpg
-  bio: "C. Titus Brown is a Professor in the School of Veterinary Medicine at UC Davis, where he works on methods in data intensive research across the biosciences, computer science, and software engineering. He is surprisingly passionate about open science and sociotechnical systems for community development of research infrastructure, and blogs regularly on these topics at ivory.idyll.org/blog/."
+  bio: >
+    C. Titus Brown is a Professor in the School of Veterinary Medicine at UC Davis,
+    where he works on methods in data intensive research across the biosciences, computer
+    science, and software engineering. He is surprisingly passionate about open science
+    and sociotechnical systems for community development of research infrastructure, and
+    blogs regularly on these topics at ivory.idyll.org/blog/.
 
-- name: Alok Kamatar
+- id: alok_kamatar
+  name: Alok Kamatar
   role: Graduate Student, University of Chicago
   institution:
     - name: University of Chicago
@@ -111,11 +150,15 @@
       image: uchicago.png
   country: us
   link: https://www.computerscience.uchicago.edu/people/alok-kamatar
-  talk_num: 7
-  # photo: kamatar.jpg
-  bio: "Alok Kamatar is a 4th year Ph.D. student at the University of Chicago advised by Ian Foster and Kyle Chard. Broadly, he is interested in building systems to enable faster and more efficient science. He is currently working on building Academy: a framework for integrating \"Agents\" with federated research infrastructure and exploring the associated systems challenges."
+  bio: >
+    Alok Kamatar is a 4th year Ph.D. student at the University of Chicago advised by Ian
+    Foster and Kyle Chard. Broadly, he is interested in building systems to enable faster
+    and more efficient science. He is currently working on building Academy: a framework
+    for integrating "Agents" with federated research infrastructure and exploring the
+    associated systems challenges.
 
-- name: Raffaele Montella
+- id: raffaele_montella
+  name: Raffaele Montella
   role: Associate Professor with tenure in Computer Science
   institution:
     - name: University of Naples “Parthenope”
@@ -123,11 +166,28 @@
       image: ParthEng.png
   country: Italy
   link: https://www.raffaelemontella.it/
-  talk_num: 8
   photo: montella.png
-  bio: "Raffaele Montella is an Associate Professor with tenure in Computer Science at the Department of Science and Technologies (DiST), University of Naples “Parthenope’” (UNP), Italy. He got his degree (MSc equivalent) cum laude and an award mention to his study career in (Marine) Environmental Science at the University of Naples “Parthenope” in 1998, defending a thesis about the “Development of a GIS system for marine applications”. He defended his Ph.D. thesis on “Environmental modeling and Grid Computing techniques” earning a Ph.D. in Marine Science and Engineering at the University of Naples “Federico II”. His main research topics and scientific production are focused on: tools for high-performance computing, cloud computing, and GPUs with applications in the field of computational environmental science (multi-dimensional geo-referenced big data, distributed computing for modeling, and scientific workflows and science gateways) leveraging on his previous (and still ongoing) experiences in embedded, mobile, wearable, pervasive computing, and Internet of Things. Since 2021 he has been head of the UNP node CINI Lab/Working Group “HPC: Key Technologies and Tools”. Since 2022 he has been the head of the AWS Academy at the University of Naples “Parthenope”. In February 2023, he gained the Italian National Academic Qualifications as Full Professor in Computer Science (01/B1)."
+  bio: >
+    Raffaele Montella is an Associate Professor with tenure in Computer Science at the
+    Department of Science and Technologies (DiST), University of Naples “Parthenope’”
+    (UNP), Italy. He got his degree (MSc equivalent) cum laude and an award mention to
+    his study career in (Marine) Environmental Science at the University of Naples
+    “Parthenope” in 1998, defending a thesis about the “Development of a GIS system for
+    marine applications”. He defended his Ph.D. thesis on “Environmental modeling and
+    Grid Computing techniques” earning a Ph.D. in Marine Science and Engineering at the
+    University of Naples “Federico II”. His main research topics and scientific
+    production are focused on: tools for high-performance computing, cloud computing, and
+    GPUs with applications in the field of computational environmental science
+    (multi-dimensional geo-referenced big data, distributed computing for modeling, and
+    scientific workflows and science gateways) leveraging on his previous (and still
+    ongoing) experiences in embedded, mobile, wearable, pervasive computing, and Internet
+    of Things. Since 2021 he has been head of the UNP node CINI Lab/Working Group “HPC: Key
+    Technologies and Tools”. Since 2022 he has been the head of the AWS Academy at the
+    University of Naples “Parthenope”. In February 2023, he gained the Italian National
+    Academic Qualifications as Full Professor in Computer Science (01/B1).
 
-- name: Renan Souza
+- id: renan_souza
+  name: Renan Souza
   role: Research Staff
   institution:
     - name: Oak Ridge National Laboratory
@@ -135,11 +195,20 @@
       image: ornl.png
   country: us
   link: https://www.ornl.gov/staff-profile/renan-santos-souza
-  talk_num: 9
   photo: souza.jpg
-  bio: "Renan Souza earned his Ph.D., M.Sc., and B.Sc. in Computer Science (2009-2019) from the Federal University of Rio de Janeiro (UFRJ). Since 2022, he has been a researcher and software engineer at Oak Ridge National Laboratory, after spending seven years at IBM. He was a visiting scientist at INRIA, France, during his Ph.D. and, during his B.Sc., studied abroad at Missouri State University and interned at SLAC National Laboratory. Active in engineering, research, and technical leadership since 2010, he has authored 50+ peer-reviewed papers in leading venues and holds 10+ USPTO patents. His current focus is on designing and building scalable systems to support responsible and trustworthy AI workflows."
-  
-- name: Jan Janssen
+  bio: >
+    Renan Souza earned his Ph.D., M.Sc., and B.Sc. in Computer Science (2009-2019) from
+    the Federal University of Rio de Janeiro (UFRJ). Since 2022, he has been a researcher
+    and software engineer at Oak Ridge National Laboratory, after spending seven years at
+    IBM. He was a visiting scientist at INRIA, France, during his Ph.D. and, during his
+    B.Sc., studied abroad at Missouri State University and interned at SLAC National
+    Laboratory. Active in engineering, research, and technical leadership since 2010, he
+    has authored 50+ peer-reviewed papers in leading venues and holds 10+ USPTO patents.
+    His current focus is on designing and building scalable systems to support responsible
+    and trustworthy AI workflows.
+
+- id: jan_janssen
+  name: Jan Janssen
   role: Group Leader for Materials Informatics
   institution:
     - name: Max Planck Institute for Sustainable Materials
@@ -147,11 +216,22 @@
       image: max_plank.png
   country: de
   link: https://www.mpie.de/4910750/Janssen
-  talk_num: 10
   photo: janssen.jpg
-  bio: "Jan Janssen is the group leader for Materials Informatics at the Max Planck Institute for Sustainable Materials. His group focuses on applying methods from computer science including machine learning to discover novel sustainable materials with applications ranging from machine-learned interatomic potentials to large language model agents for atomistic simulation. Previously, Jan was a director’s postdoctoral fellow in the T-division at Los Alamos National Laboratory as part of the Exascale Computing Project as well as an invited postdoctoral fellow at the University of Chicago and the University of California Los Angeles. Besides his research work, Jan is the lead developer of the pyiron atomistic simulation suite, maintains over 1000 open-source materials informatics software packages for the conda-forge community and is a regular contributor to open-source software on Github."
+  bio: >
+    Jan Janssen is the group leader for Materials Informatics at the Max Planck Institute
+    for Sustainable Materials. His group focuses on applying methods from computer science
+    including machine learning to discover novel sustainable materials with applications
+    ranging from machine-learned interatomic potentials to large language model agents for
+    atomistic simulation. Previously, Jan was a director’s postdoctoral fellow in the
+    T-division at Los Alamos National Laboratory as part of the Exascale Computing
+    Project as well as an invited postdoctoral fellow at the University of Chicago and
+    the University of California Los Angeles. Besides his research work, Jan is the lead
+    developer of the pyiron atomistic simulation suite, maintains over 1000 open-source
+    materials informatics software packages for the conda-forge community and is a
+    regular contributor to open-source software on Github.
 
-- name: Patrick Wells
+- id: patrick_wells
+  name: Patrick Wells
   role: Postdoctoral Appointee at ANL
   institution:
     - name: Argonne National Laboratory
@@ -159,11 +239,18 @@
       image: argonne.png
   country: us
   link: https://www.anl.gov/profile/patrick-wells
-  talk_num: 11
   photo: wells.jpg
-  bio: "Patrick Wells is a postdoctoral appointee at Argonne National Laboratory who designs and builds tools to simplify access to large-scale cosmological datasets. He joined Argonne in 2024 after completing his PhD in Astrophysics from the University of California, Davis, where he worked on measuring the expansion rate of the universe by extracting information from galaxy surveys. His primary computational interests include data management and workflow orchestration, and he has scientific interests in large-scale structure cosmology and gravitational lensing."
+  bio: >
+    Patrick Wells is a postdoctoral appointee at Argonne National Laboratory who designs
+    and builds tools to simplify access to large-scale cosmological datasets. He joined
+    Argonne in 2024 after completing his PhD in Astrophysics from the University of
+    California, Davis, where he worked on measuring the expansion rate of the universe by
+    extracting information from galaxy surveys. His primary computational interests
+    include data management and workflow orchestration, and he has scientific interests in
+    large-scale structure cosmology and gravitational lensing.
 
-- name: Laurent Thomas
+- id: laurent_thomas
+  name: Laurent Thomas
   role: Research Software Engineer at EMBL Heidelberg
   institution:
     - name: European Molecular Biology Laboratory
@@ -171,6 +258,65 @@
       image: embl.png
   country: de
   link: https://www.embl.org/people/person/laurent-sylvain-vincent-thomas/
-  talk_num: 12
   photo: thomas.jpg
-  bio: "Laurent Thomas is a research software engineer, and currently a postdoctoral researcher at EMBL Heidelberg in the MODIS data science team. The team is developing LabID, the data-management solution of the EMBL. Prior to joining the EMBL, he did his PhD in Heidelberg working on image-analysis for microscopy. Then he worked a couple of years as a software engineer for a local microscopy company, before joining the EMBL in March last year."
+  bio: >
+    Laurent Thomas is a research software engineer, and currently a postdoctoral
+    researcher at EMBL Heidelberg in the MODIS data science team. The team is developing
+    LabID, the data-management solution of the EMBL. Prior to joining the EMBL, he did his
+    PhD in Heidelberg working on image-analysis for microscopy. Then he worked a couple of
+    years as a software engineer for a local microscopy company, before joining the EMBL
+    in March last year.
+
+- id: woong_shin
+  name: Woong Shin
+  role: HPC Systems Engineer
+  institution:
+    - name: Oak Ridge National Laboratory
+      link: https://www.ornl.gov
+      image: ornl.png
+  country: us
+  link: https://www.ornl.gov/staff-profile/woong-shin
+  photo: woong.jpg
+  bio: >
+    Woong Shin, Ph.D. is a Research Scientist at Oak Ridge National Laboratory, working on
+    agentic AI systems for scientific discovery and intelligent infrastructure for
+    high-performance computing. His current focus includes AI-based systems and workflows
+    for research automation and AI/ML-driven methods for operating exascale supercomputers
+    like Frontier. He holds a Ph.D. in Electrical Engineering and Computer Science from
+    Seoul National University. His work has been recognized with Best Paper at SC21 for
+    HPC energy efficiency research, an R&D 100 Award for the ExaDigiT digital twin
+    framework, and Distinguished Paper at the WORKS workshop (SC25) for research on
+    scientific workflows in the agentic AI era.
+
+- id: ming_du
+  name: Ming Du
+  role: Assistant Computational Scientist
+  institution:
+    - name: Argonne National Laboratory
+      link: https://www.anl.gov
+      image: anl.png
+  country: us
+  link: https://www.anl.gov/profile/ming-du
+  photo: ming_du.jpeg
+  bio: >
+    Ming Du is a computational scientist in the Computational Science and AI Group (CAI) of
+    the Advanced Photon Source. He obtained his PhD degree in Materials Science and Engineering
+    from Northwestern University in 2019, and was a postdoc at the APS from 2019 to 2021. He
+    worked as an algorithm engineer in KLA Corporation between 2021 and 2023. Ming’s primary
+    research areas include traditional and AI-based methods for microscopy imaging and automated
+    calibration and measurement at synchrotron beamlines.
+
+- id: xiangyu_yin
+  name: Xiangyu Yin
+  role: Assistant Computational Scientist
+  institution:
+    - name: Argonne National Laboratory
+      link: https://www.anl.gov
+      image: anl.png
+  country: us
+  link: https://www.anl.gov/profile/xiangyu-yin
+  photo: xiangyu_yin.jpg
+  bio: >
+    Xiangyu Yin is an Assistant Computational Scientist at APS working on computational algorithms,
+    artificial intelligence, and scientific automation. He joined Argonne in 2023 as a Postdoctoral
+    Appointee. Before that, he studied computational materials at Carnegie Mellon University.
