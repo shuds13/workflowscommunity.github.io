@@ -1454,6 +1454,15 @@
     institution: Gettysburg College
     link: https://github.com/both-sides/both-sides/
 
+  - last_name: Cutler
+    first_name: Nolan
+    institution: Oregon State University
+    link: https://nolcut.github.io/
+
+  - last_name: Durham
+    first_name: Jayson
+    institution: e501c.org
+
 
 - country: Vietnam
   entries:
